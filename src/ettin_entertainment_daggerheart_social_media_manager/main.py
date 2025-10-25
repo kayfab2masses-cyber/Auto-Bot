@@ -12,7 +12,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'social_media_platforms': 'sample_value'
+        'social_media_platforms': 'X (Twitter), Reddit, and TikTok'
     }
     EttinEntertainmentDaggerheartSocialMediaManagerCrew().crew().kickoff(inputs=inputs)
 
